@@ -49,7 +49,7 @@ public class TabPager extends FrameLayout {
     }
 
     private void inflateView(Context context) {
-        LayoutInflater.from(context).inflate(R.layout.view_tab_host_pager, this, true);
+        LayoutInflater.from(context).inflate(R.layout.view_tabpager, this, true);
         ButterKnife.bind(this, this);
     }
 
