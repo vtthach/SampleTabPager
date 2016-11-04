@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerFooter"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_view_footer_height"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCallCenter"
+            android:textSize="34sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/menu_view_footer_margin_content_left"
+            tools:text="0860 000 387" />
+
+        <TextView
+            android:id="@+id/tvCallCenterMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCallCenter"
+            android:layout_marginLeft="@dimen/menu_view_footer_margin_content_left"
+            android:layout_marginTop="-10dp"
+            android:text="@string/menu_label_message_customer_contact_centre" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/menu_view_footer_margin_content_right"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:height="@dimen/menu_view_footer_btn_height"
+        android:text="Done"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>

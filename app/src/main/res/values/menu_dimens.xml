@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_view_footer_height">94dp</dimen>
+    <dimen name="menu_view_footer_margin_content_right">36dp</dimen>
+    <dimen name="menu_view_footer_btn_width">191dp</dimen>
+    <dimen name="menu_view_footer_btn_height">50dp</dimen>
+    <dimen name="menu_view_footer_margin_content_left">37dp</dimen>
+    <dimen name="menu_view_tab_host">17dp</dimen>
+
+    <dimen name="mas_head_toolbar_header_height">50dp</dimen>
+
+</resources>
